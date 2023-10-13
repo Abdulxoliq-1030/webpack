@@ -1,5 +1,5 @@
-const getData = () => {
-  console.log("Get Data");
+export const getData = (name) => {
+  console.log(`Hello ${name}`);
 };
 
-export default getData;
+export const numbers = [1, 2, 3, 4, 5];
